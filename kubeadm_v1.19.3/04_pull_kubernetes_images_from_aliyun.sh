@@ -12,7 +12,8 @@ ETCD_VERSION=3.4.9-1
 CORE_DNS_VERSION=1.7.0
 
 # GCR_URL=k8s.gcr.io
-ALIYUN_URL=registry.cn-shenzhen.aliyuncs.com/cookcodeblog
+#ALIYUN_URL=registry.cn-shenzhen.aliyuncs.com/cookcodeblog
+ALIYUN_URL=k8s.gcr.io
 
 # In Kubernetes 1.12 and later, the k8s.gcr.io/kube-*, k8s.gcr.io/etcd and k8s.gcr.io/pause images don’t require an -${ARCH} suffix
 images=(kube-proxy:${KUBE_VERSION}

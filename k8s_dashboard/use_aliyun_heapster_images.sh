@@ -34,7 +34,7 @@ cp -p influxdb.yaml influxdb.yaml.bak$(date '+%Y%m%d%H%M%S')
 # Change heapster-influxdb-amd64 version from v1.5.2 to v1.3.3, beacuse in gcr.io the latest version is v1.3.3
 sed -i "s/v1\.5\.2/v1\.3\.3/g" influxdb.yaml
 # Replace k8s.gcr.io image with registry.cn-shenzhen.aliyuncs.com/cookcodeblog
-sed -i "s/k8s\.gcr\.io/registry\.cn-shenzhen\.aliyuncs\.com\/cookcodeblog/g" influxdb.yaml
+# sed -i "s/k8s\.gcr\.io/registry\.cn-shenzhen\.aliyuncs\.com\/cookcodeblog/g" influxdb.yaml
 
 
 

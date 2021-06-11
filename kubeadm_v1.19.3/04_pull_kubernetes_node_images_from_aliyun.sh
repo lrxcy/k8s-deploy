@@ -9,7 +9,8 @@ KUBE_VERSION=v1.19.3
 KUBE_PAUSE_VERSION=3.2
 
 #GCR_URL=k8s.gcr.io
-ALIYUN_URL=registry.cn-shenzhen.aliyuncs.com/cookcodeblog
+#ALIYUN_URL=registry.cn-shenzhen.aliyuncs.com/cookcodeblog
+ALIYUN_URL=k8s.gcr.io
 
 
 # In Kubernetes 1.12 and later, the k8s.gcr.io/kube-*, k8s.gcr.io/etcd and k8s.gcr.io/pause images don’t require an -${ARCH} suffix
